@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>My WebPage</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                line-height: 1.5;
+                padding: 0;
+                margin: 0;
+                background-color: #f4f4f4;
+            }
+            .container{
+                width: 80%;
+                margin: auto;
+            }
+            .button_1{
+                height: 38px;
+                background: orange;
+                color: white;
+                border: 0;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            header{
+                background-color: #35424a;
+                color: white;
+                padding-top: 30px;
+                min-height: 70px;
+                border-bottom: tomato 3px solid;
+            }
+            header a{
+                color:white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+            header ul{
+                margin: 0;
+                padding: 0;
+            }
+            header li{
+               display: inline;
+               padding: 0 20px 0 20px;
+            }
+            header #branding{
+                float: left;
+            }
+            header #branding{
+                margin: 0%;
+            }
+            header nav{
+                float: right;
+                margin-top: 20px;
+            }
+            .highlight {
+                color: red;
+            }
+            .current a{
+                color: red;
+            }
+            header a:hover{
+                color: lightslategrey;
+                font-weight: bold;
+            }
+            #showcase {
+                min-height: 400px;
+                background:url('./images/web.jpg') no-repeat;
+                background-size: 1300px 400px;
+                text-align: center;
+                color: white;
+            }
+            #showcase h1{
+                /* margin-top: 100px; */
+                margin-top: 0px;
+                font-size: 55px;
+                margin-bottom: 10px;
+            }
+            #showcase p{
+                font-size: 20px;
+            }
+            #newsletter{
+                padding: 15px;
+                color: white;
+                background: #35424a;
+            }
+            #newsletter form{
+                float: right;
+            }
+            #newsletter h1{
+                margin-top: 30px;
+            }
+            #newsletter input{
+                padding: 4px;
+                height: 40px;
+                width: 250px;
+            }
+            #boxes{
+                margin-top: 20px;
+            }
+            #boxes .box{
+                float: left;
+                /* width: ; */
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">PEP</span>-Coding</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="//www.pepcoding.com">Home</a></li>
+                    
+                    <li><a href="//www.pepcoding.com">About</a></li>
+
+                    <li><a href="//www.pepcoding.com">Services</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="container">
+                <h1>Professional Coding</h1>
+                 <p>Pepcoding, founded in 2017 with the vision to bring in "The Great Indian Coding Renaissance". We specialize in teaching in Data Structure, Algorithms and ...</p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe To Our Newsletter</h1>
+                <form >
+                    <input type="email" placeholder="Enter Email...">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./images/web.jpg" >
+                    <h3>DEV</h3>
+                    <p>Pepcoding, founded in 2017 with the vision to bring in "The Great Indian Coding Renaissance". We specialize in teaching in Data Structure, Algorithms and ...</p>
+                </div>
+                <div class="box">
+                    <img src="./images/6666.jpg" >
+                    <h3>DSA</h3>
+                    <p>Pepcoding, founded in 2017 with the vision to bring in "The Great Indian Coding Renaissance". We specialize in teaching in Data Structure, Algorithms and ...</p>
+                </div>
+                <div class="box">
+                    <img src="./images/1111.jpg" >
+                    <h3>JAVA-SCRIPT</h3>
+                    <p>Pepcoding, founded in 2017 with the vision to bring in "The Great Indian Coding Renaissance". We specialize in teaching in Data Structure, Algorithms and ...</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Pepcoding, Copyright &copy; 2017</p>
+        </footer>
+    </body>
+</html>
